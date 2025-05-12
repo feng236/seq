@@ -312,7 +312,8 @@ int main()
     cout << mine.citys[n]->cityname << " to " << mine.citys[m]->cityname << " the distance is " << me[m].weight <<" hour " << endl;
     //文字输出一下
     FILE* file = fopen("test.htm", "w");
-    if (!file) {     //文件异常处理
+    if (!file)
+     {     //文件异常处理
         cout << "error do not open  test.htm" << endl;
         delete[] me;
         freeout(mine);
