@@ -291,6 +291,7 @@ dijist* dj(map&mine,int n)//最短路径
     }
     return me;//返回最短路径的头指针
 }
+
 int main()
 {
     map mine;
